@@ -32,6 +32,7 @@ This project explores **layoff trends from 2020 to 2023**, analyzing **which ind
 
 ## Some interesting queries
 **Data cleaning** 
+
 Create new table for delete duplicate
 ```
 CREATE TABLE `layoffs_staging2` (
@@ -74,6 +75,7 @@ WHERE industry = ''
 ```
 
 **Exploratory data analysis**
+
 the rank of highest laidoff per year 
 ```
 WITH hightest AS (
@@ -109,6 +111,7 @@ WHERE total_laid_off >= AVG_in
 ORDER BY 2 DESC
 ;
 ```
+
 Find the largest single layoff event in each country.
 ```
 with cte_country AS (
