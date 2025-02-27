@@ -3,6 +3,7 @@ Analyzing global layoff trends across industries, funding stages, and companies 
 
 ## Project Overview
 This project explores **layoff trends from 2020 to 2023**, analyzing **which industries, countries, and funding stages** were most affected. The dataset includes information about layoffs from various companies, their funding, and the percentage of employees laid off.
+![](visualizations/layoff1.JPG)
 
 ## Key Objectives
 - Identify layoff trends over time
